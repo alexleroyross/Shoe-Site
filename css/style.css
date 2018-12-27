@@ -1,0 +1,29 @@
+body{
+  font: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page{
+  width: 100%;
+}
+
+header #head-grid{
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+header #logo{
+  padding-left: 10px;
+}
+
+header #sin{
+  text-align: center;
+  border: 1px solid black;
+}
+
+header #sup{
+  text-align: center;
+  background:#8F8F8F;
+  border: 1px solid black;
+}
