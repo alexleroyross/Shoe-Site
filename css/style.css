@@ -6,6 +6,7 @@ body{
 
 .page{
   width: 100%;
+  overflow: hidden;
 }
 
 header #head-grid{
@@ -26,4 +27,104 @@ header #sup{
   text-align: center;
   background:#8F8F8F;
   border: 1px solid black;
+}
+
+main #search{
+  text-align: center;
+  letter-spacing: 1em;
+}
+
+main a{
+  text-decoration: none;
+  color: black;
+}
+
+.search_text{
+  display: inline;
+  /* what the */
+  padding-top: -1em;
+}
+
+.search_s{
+  display: inline;
+  font-size: 4em;
+  padding-top: 0;
+}
+
+#search{
+  width: 100%;
+  border: 1px solid black;
+}
+
+#search a{
+  width: 100%;
+}
+
+.segment{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.seg_head{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.seg_text{
+  float: left;
+  padding: 0 0 0 1em;
+}
+
+.arrow{
+  float: right;
+  padding: 0 1em 0 0;
+}
+
+.seg_selection{
+  /*
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-auto-rows:minmax(100px, auto);
+    grid-gap:1em;
+    justify-items:stretch;
+    align-items:stretch;
+    */
+}
+
+.segment img{
+  width: 160px;
+  float: left;
+}
+
+.segment h3{
+  margin: 0.6em auto 0.2em 0.6em;
+  font-size: 1.6em;
+}
+
+.segment h4{
+  margin: 0.6em auto 0.2em 0.6em;
+  font-size: 1.2em;
+}
+
+.seg_selection_text{
+  float: left;
+}
+
+#footbox{
+  overflow: auto;
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footseg{
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#copyright{
+  text-align: center;
 }
